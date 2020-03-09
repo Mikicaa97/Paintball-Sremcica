@@ -58,7 +58,7 @@ body {
                 border-bottom:3px solid $borderbela;
                 border-radius: 10px;
                 list-style-type: none;
-                margin-right:6%; 
+                margin-right:5%; 
                 a{
                     color: $borderbela;
                     font-weight: bold;
@@ -121,16 +121,16 @@ body {
             width:45%;
             padding:2.5%;
             h3{
-                margin-left: 30px;
-                padding:20px;
+               margin-bottom: 25px; 
                 font-size:30px;
                 text-align: center;
             }
             p {
+                display: flex;
                 text-align: justify;
                 margin-left: 35px;
                 font-size: 20px; 
-                padding-bottom:50px;  
+                padding-bottom:20px; 
             }
             .left {
                 border-radius: 20px;
@@ -347,8 +347,8 @@ footer {
         width:80% !important;
         align-items: center;
         text-align: center;
-        padding:0 !important; 
-        display: block
+        padding:0 !important;
+        display: block;
     }
    .left {
         width:70%;
@@ -468,6 +468,10 @@ footer {
     #about .wprojects img{
 
         height:250px !important;
+    }
+    /***LOGO***/
+    #logo{
+        display: none;
     }
     /*FOOTER*/
     #nav ul{

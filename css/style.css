@@ -74,7 +74,7 @@ a {
   border-bottom: 3px solid #dfdfdf;
   border-radius: 10px;
   list-style-type: none;
-  margin-right: 6%;
+  margin-right: 5%;
 }
 
 #nav ul li a {
@@ -158,17 +158,19 @@ a {
 }
 
 #projects .leftproject h3 {
-  margin-left: 30px;
-  padding: 20px;
+  margin-bottom: 25px;
   font-size: 30px;
   text-align: center;
 }
 
 #projects .leftproject p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: justify;
   margin-left: 35px;
   font-size: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 #projects .leftproject .left {
@@ -564,6 +566,10 @@ footer div.cfooter a {
   /*ABOUT*/
   #about .wprojects img {
     height: 250px !important;
+  }
+  /***LOGO***/
+  #logo {
+    display: none;
   }
   /*FOOTER*/
   #nav ul {
