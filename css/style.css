@@ -23,6 +23,7 @@ body{
 	/*SVE NA BGSLICI*/
 #bgslika{
 	background-image:url("../img/bgslika.jpg");
+	background-attachment: fixed;
 	background-repeat:no-repeat;
 	min-height:700px;
 	background-size:cover;
@@ -568,10 +569,9 @@ font-weight:bold;
 	width:80%;
 }
 #naslovrodj h3{
+	text-align: center;
 	font-size:25px;
-	margin-left:140px;
 	color:#f28b24;
-	/**font-family:cursive;**/
 }
 #naslovrodj h3:hover{
 	color:#fc6203;
@@ -584,16 +584,16 @@ font-weight:bold;
 	margin-top:20px;
 	/**font-family:cursive;**/
 	text-align:center;
+	text-align: justify;
 }
 #principigre{
-	width:80%;
+	width:90%;
 	margin-bottom:40px;
 	display:flex;
 }
 #principlevo h2{
 	font-size:25px;
 	color:#f28b24;
-	/**font-family:cursive;**/
 	margin-top:20px;
 }
 #principlevo h2:hover{
@@ -603,9 +603,9 @@ font-weight:bold;
 }
 #principlevo p{
 	margin-top:20px;
-	/**font-family:cursive;**/
 	font-size:19px;
 	padding:10px;
+	text-align: justify;
 }
 #principlevo b{
 	color:#f28b24;
@@ -622,12 +622,10 @@ font-weight:bold;
 #principdesno img{
 	border-radius:10px;
 	float:right;
-}
-#principdesno img:hover{
-	border:3px solid orange;  
+	margin-bottom: 40px;
 }
 #red2{
-	width:80%;
+	width:90%;
 }
 #red2{
 	display:flex;
@@ -753,28 +751,32 @@ font-weight:bold;
 	color:#fc6203;
 	border-radius:2px solid #000;
 	cursor:pointer;
-	
+}
+.opisleva h2{
+	font-size: 22px;
+	text-align: center;
 }
 #video{
 	margin-top:10px;
 	margin-bottom:10px;
-	margin-left:220px;
+	margin-left:170px;
 }
 .opisleva p{
+	width: 100%;
 	font-size:20px;
 	/**font-family:cursive;**/
-	text-align:center;
+	text-align:justify;
 	padding:3px;
 	margin-top:10px;
 	margin-bottom:10px;
 }
 .paintballslika img{
 	border-radius:10px;
-	width:500px;
-	height:650px;
+	width:400px;
+	height:550px;
 	margin-top:10px;
 	margin-bottom:10px;
-	margin-left:280px;
+	margin-left:200px;
 }
 .paintballslika img:hover{
 	   border:3px solid orange;   
