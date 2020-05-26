@@ -256,7 +256,6 @@ body{
 #red .blok img:hover{
 	  border:3px solid orange;   
 }
-}
 #red .blok{
 	width:20%;
 }
@@ -424,6 +423,18 @@ footer #saznaj a:hover{
 }
 #copyright p{
 	font-size:20px;
+}
+#copyright h3{
+	margin-top: 5px;
+	font-size: 20px;
+}
+#copyright a{
+	text-decoration: none;
+	color: #fff;
+}
+#copyright a:hover{
+	text-decoration: none;
+	color: #fc6203;
 }
 /* GALERIJA*/
 #galerija{
