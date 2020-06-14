@@ -231,6 +231,11 @@ body{
 	color:#f28b24;
 	/**font-family:cursive;**/
 }
+#naslov p{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+}
 #naslov h3:hover{
 	color:#fc6203;
 	border-radius:2px solid #000;
@@ -454,19 +459,22 @@ footer #saznaj a:hover{
 	border-radius:2px solid #000;
 	cursor:pointer;
 }
+
+
+
+
+
 #slajder{
-	width:80%;
+	width: 80%;
 }
-#slajder {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-between;
-	margin-bottom:40px;
-	margin-top:40px;
-	padding:10px;
-	border:1px solid #f28b24;
-	border-radius:10px;
+#slajder{
+	display: flex;
+	justify-content: space-around;
 }
+
+
+
+
 #slajder .block img{
 	width:220px;
 	border-radius:10px;
@@ -794,3 +802,52 @@ font-weight:bold;
 .paintballslika img:hover{
 	   border:3px solid orange;   
 }
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+      width: 400px;
+      height: 300px;
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
