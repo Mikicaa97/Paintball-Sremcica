@@ -1,201 +1,365 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8"/>
-	<title>Galerija - Paintball Zone</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet"/>
-	<meta name="description" content="Paintball Zone Sremcica je prvi paintball. Proteže se na 1600 m2. Na jednom mestu su objedinjeni dečiji paintball, scenario paintball i sportski paintball. Na 2 paintball terena imate mogućnost da probate 3 razlicita scenarija." />
-	<meta name="keywords" content="paintball,zona,slike,galerija,maske,kombinezon,slajder,"/>
-	<meta name="author" content="Mihailo Vlajkovic"/>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<link rel="icon" href="img/logo.jpg" type="image/x-icon">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<div id="bgslika">
-		<div id="header" class="okvir">
-			<div id="logo">
-				<a href="index.html"><img src="img/logo.jpg" alt="Logo"/></a>
-			</div>
-			<div id="nav">
-				<ul>
-					<li><a href="index.html">Početna</a></li>
-					<li><a href="paintball.html">Paintball</a></li>
-					<li><a href="galerija.html" id="active">Galerija</a></li>
-					<li><a href="cene.html">Cene</a></li>
-					<li><a href="rodjendani.html">Rođendani</a></li>
-					<li><a href="kontakt.html">Kontakt</a></li>
-				</ul>
-			</div>
-			<div class="cleaner"></div>
-		</div>
-		<div id="sredina" class="okvir">
-			<h1>GALERIJA</h1>
-			<a href="kontakt.html">Rezerviši</a>
-		</div>
-	</div>
-	<div id="galerija" class="okvir">
-			<div id="tekst">
-				<h3>PAINTBALL ZONE GALERIJA</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-			  <img src="img/slajder1.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder2.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder3.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder4.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder5.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder6.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder7.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-			  <img src="img/slajder8.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			</div>
-			<div class="column">
-				<img src="img/slajder9.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder10.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder11.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder12.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder13.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder14.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder15.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder16.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder17.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder18.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder19.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder20.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-			  <div class="column">
-				<img src="img/slajder21.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-			  </div>
-		  </div>
-		  
-		  <div class="container">
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-			<img id="expandedImg" style="width:100%">
-			<div id="imgtext"></div>
-		  </div>
-		  
-		  <script>
-		  function myFunction(imgs) {
-			var expandImg = document.getElementById("expandedImg");
-			var imgText = document.getElementById("imgtext");
-			expandImg.src = imgs.src;
-			imgText.innerHTML = imgs.alt;
-			expandImg.parentElement.style.display = "block";
-		  }
-		  </script>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Galerija | - PaintballSremcica</title>
+        <meta name="description" content="I am Mihailo Vlajkovic, web developer from Serbia and this is my portfolio. This is the showcase of my work, feel free to contact me for project opportunity">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Mihailo Vlajkovic,web portfolio, portfolio, web developer, developer">
+        <meta name="author" content="Mihailo Vlajkovic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+       <link rel="shortcut icon" type="image/png" href="img/faicon.png" />
+        <link rel="icon" href="img/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="bgslika">
+            <div class="header">
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+            <div class="logo">
+                <!--<a class="navbar-brand" href="index.html"><b>Code</b><span><b>House</b></span></a>-->
+                <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="Logo"/></a>
+              </div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Naslovna</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="web.html" role="button" aria-haspopup="true" aria-expanded="false">Ponude</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="rodjendani.html">Deciji rodjendani</a>
+                        <a class="dropdown-item" href="team.html">Teambuilding</a>
+                        <a class="dropdown-item" href="airsoft.html">Airsoft</a>
+                        <!--<div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>-->
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cene.html" tabindex="-1" aria-disabled="true">Cene</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html" tabindex="-1" aria-disabled="true">Kontakt</a>
+                      </li>
+                  </ul>
+          </div>
+          <div class="ptext">
+            <h1>GALERIJA</h1>
+            <a href="kontakt.html">Rezerviši</a>
+        </div>
+        </div>
+        <!--KRAJ BGSLIKE-->
+        <!--INFO 2-->
+      <div class="infosve1">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">GALERIJA - U izradi</h5>
+            <!--<p class="card-text"><b>AKCIJA DO KRAJA LETA</b></p>-->
+          </div>
+        </div>
+      </div>
+      <!--KRAJ INFO-->
+      <!-- <div class="galerija">
+        <div class="row">
+          <div class="col-md-12">
+        
+            <div id="mdb-lightbox-ui"></div>
+        
+            <div class="mdb-lightbox">
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/paintball1.jpg" class="img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/paintball2.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/rodj1.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/rodj2.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/rodj3.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/rodj4.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/rodjendan.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder1.jpg" class="img-fluid" />
+                </a>
+              </figure>
+        
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder10.jpg" class="img-fluid" />
+                </a>
+              </figure>
 
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder11.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder12.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder13.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder14.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder15.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder16.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder17.jpg" class="img-fluid" />
+                </a>
+              </figure>
 
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder18.jpg" class="img-fluid" />
+                </a>
+              </figure>
 
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder3.jpg" class="img-fluid" />
+                </a>
+              </figure>
 
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder4.jpg" class="img-fluid" />
+                </a>
+              </figure>
 
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder5.jpg" class="img-fluid" />
+                </a>
+              </figure>
+              
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder6.jpg" class="img-fluid" />
+                </a>
+              </figure>
 
-	<footer>
-		<header>
-				<h3>NAJČEŠCA PITANJA O PAINTBALL-U I DEČIJIM ROĐENDANIMA</h3>
-		</header>
-		<div id="centar" class="okvir">
-			<div class="text">
-				<h4>U kom uzrastu ste dobrodošli na paintball-u?</h4>
-				<p>Za naše dečije rođendane od 8 do 16 godina. Za igranje Paintball-a od 17 godina.
-				</p>
-			</div>
-			<div class="text">
-				<h4>Povrede na paintball-u i dečijim rođendanima?</h4>
-				<p>Mi radimo na minimalnoj udaljenosti,koristimo profesionalnu opremu i nudimo dodatnu zaštitu.
-				</p>
-			</div>
-			<div class="text">
-				<h4>Koje je radno vreme?</h4>
-				<p>
-				Paintball Zone je otvoren svakog dana od 10 do 22h,ali zbog obimnog posla preporuka
-				je da rezervišete dan ranije.
-				</p>
-			</div>
-			<div class="text">
-				<h4>Imam i druga pitanja.Šta sad?</h4>
-				<p>	Na našoj web strani mozete pronaci puno informacija.Ako ovde ne pronađete vaše odgovore,
-					molimo Vas da posetite našu stranicu za kontakt.
-				</p>
-			</div>
-		</div>
-		<div id="saznaj"><a href="kontakt.html">Saznaj još</a></div>
-		<div id="donjideo">
-			<header>
-				<h3>OSTANITE INFORMISANI</h3>
-			</header>
-			<div id="ufuter" class="okvir">
-				<div id="info">
-					<ul>
-						<li><a href="https://mikicaa97.github.io/Mikicaa-MyPortfolio/">WEB STYLE Mikica</a></li>
-						<li><a href="rss.xml">RSS</a></li>
-						<li><a href="sitemap.xml">Sitemap</a></li>
-					</ul>
-				</div>
-				<div id="lokacija">
-					<header>
-						<h5>PaintballZone Sremčica</h5>
-					</header>
-					<p>Mijatovih njiva 20 Sremčica
-						Beograd,Srbija</p>
-				</div>
-				<div id="socijalne">
-					<h6>PITANJA? POZOVITE NAS!</h6>
-					<a href="kontakt.html" id="br"><span id="telefon" class="fa fa-phone"></span>0655822552</a>
-					<p>Svakog dana od 10:00 do 22:00h</p>
-					<ul>
-						<li><a href="https://www.facebook.com/Paintball-zone-782758795267621/"/><span class="fa fa-facebook"></span></a></li>
-						<li><a href="https://www.instagram.com/paintballsremcica"/><span class="fa fa-instagram"></span></a></li>
-						<li><a href="https://www.youtube.com/watch?v=Niqwkc0qrHM"/><span class="fa fa-youtube-play"></a></span>
-						<li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"/><span class="fa fa-envelope-o"></a></span>
-					</ul>
-				</div>
-			</div>
-		<div id="copyright">
-				<p>PaintballZone Sremčica &copy</p>
-				<h3><a href="https://mikicaa97.github.io/Mikicaa-MyPortfolio/">WEB STYLE Mikicaa</a></h3>
-		</div>
-		</div>
-	</footer>
-	
-</body>
-</html>	
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder7.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder8.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slajder9.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slika.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slika1.JPG" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slika2.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/slika3.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/team1.jpg" class="img-fluid" />
+                </a>
+              </figure>
+
+              <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="img/team2.jpg" class="img-fluid" />
+                </a>
+              </figure>
+            </div>
+        
+          </div>
+        </div>
+      </div> -->
+        <!--POCETAK GMAIL-->
+      <div class="infosve2">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Sve zamerke i kritike pisite nam na:</h5>
+            <!--<p class="card-text">Da li zelis da zapocnes projekat kod nas?</p>-->
+            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" class="btn btn-primary">vlajkovic.1997@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <!--KRAJ GMAIL-->
+        <!--FOOTER-->
+      <!--NOVI FUTER-->
+      <div class="svefuter">
+        <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+              <h5 class="text-uppercase">PAINTBALL SREMCICA</h5>
+              <p>Paintball Deciji rodjendani</p>
+              <p>Teambuilding</p>
+
+          </div>
+          <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Kontakt</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="kontakt.html">> 065/5822-552</a>
+              </li>
+              <li>
+                <a href="#!">Adresa: Mijatovih njiva 21a</a>
+              </li>
+              <!--<li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>-->
+            </ul>
+
+          </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Email & Social</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new">> vlajkovic.1997@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Paintball-zone-782758795267621"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/paintballsremcica/?hl=sr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+          </li>
+          <!--<li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>-->
+        </ul>
+
+            </div>
+      <!-- Grid column -->
+
+          </div>
+    <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="ufuter">
+        <div class="footer-copyright text-center py-3">Copyright © 2021 PaintballSremcica | Design:
+          <a href="https://mikicaa97.github.io/CodeMikica/"> CodeHouse</a>
+        </div>
+      </div>
+        <!-- Copyright -->
+
+        </footer>
+      </div>
+        <!-- KRAJ NOVOG Footer -->
+    <!--KRAJ FOOTERA-->
+      <!--KRAJ FOOTERA-->
+    </body>
+</html>
