@@ -9,7 +9,9 @@
 ::selection{
     background-color: #f19f40; //ff8800
 }
-
+#active{
+  color: #f28b24;
+}
 .loader_bg {
     position: fixed;
     z-index: 9999999;
@@ -30,70 +32,6 @@
 .loader img {
     width: 280px;
 }
-
-// //POP KONTAKT
-// #popkont{
-//     color: #fff;
-//     padding: 1%;
-//     width: 610px;
-//     height: 450px;
-//     border: 2px solid #d1d1d1;
-//     bottom: 50%;
-//     top: 25%;
-//     right: 27%;
-//     position: fixed;
-//     border-radius: 10px;
-//     // background-color: rgba(236, 202, 47, 0.877);
-//     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgb(255, 194, 26) 100%);
-//     // background-image: url("../img/logo.jpg");
-//     #close{
-//         right: 5;
-//         top: 5;
-//         float: right;
-//     }
-//     a{
-//         text-decoration: none;
-//         color: #fff;
-//         font-size: 20px;
-//         float: right;
-//         border: 1px solid #c2c2c2;
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgba(255,195,26,1) 100%);
-//         border-radius: 5px;
-//         padding: 1%;
-//     }
-//     a:hover{
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,156,26,1) 0%, rgba(255,202,26,1) 100%);
-//     }
-//     .kako{
-//         text-align: center;
-//         margin-top: -4%;
-//         border-bottom: 1px solid #000;
-//         p{
-//             text-align: justify;
-//             margin-left: 10%;
-//             font-size: 24px;
-//             color: #fff;
-//         }
-//     }
-//     .link1{
-//         text-align: center;
-//         margin-top: 1%;
-//         font-size: 20px;
-//         p{
-//             text-align: justify;
-//             color: #fff;
-//         }
-//         //background-color: #709e65;
-//     }
-//     .popimg{
-//         text-align: center;
-//         margin-top: 4%;
-//         font-size: 70px;
-//     }
-// }
-
-// //kraj popup
-
 //SVE ZA HEADER
 .bgslika{
     background-image:url("../img/bgslika.jpg");
@@ -575,64 +513,7 @@ form{
 }
 //RESPONSIVE
 @media (max-width:1000px){
-    //POP KONTAKT
-// #popkont{
-//     padding: 1%;
-//     width: 80%;
-//     margin: 0px auto;
-//     height: 420px;
-//     border: 2px solid #d1d1d1;
-//     bottom: 50%;
-//     top: 37%;
-//     right: 10%;
-//     position: fixed;
-//     border-radius: 10px;
-//     background-color: rgba(255, 255, 255, 0.945);
-//     //background-image: url("../img/popup1.png");
-//     #close{
-//         right: 5;
-//         top: 5;
-//         float: right;
-//     }
-//     a{
-//         text-decoration: none;
-//         color: #fff;
-//         font-size: 20px;
-//         float: right;
-//         border: 1px solid #c2c2c2;
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgba(255,195,26,1) 100%);
-//         border-radius: 5px;
-//         padding: 1%;
-//     }
-//     a:hover{
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,156,26,1) 0%, rgba(255,202,26,1) 100%);
-//     }
-//     .kako{
-//         text-align: center;
-//         margin-top: -4%;
-//         border-bottom: 1px solid #000;
-//         p{
-//             margin-left: 10%;
-//             font-size: 24px;
-//             color: #fff;
-//         }
-//     }
-//     .link1{
-//         text-align: center;
-//         margin-top: 1%;
-//         font-size: 20px;
-//         p{
-//             text-align: justify;
-//             color: #fff;
-//         }
-//         //background-color: #709e65;
-//     }
-//     .popimg{
-//         text-align: center;
-//         margin-top: 4%;
-//         font-size: 70px;
-//     }
-// }
+    
     .textslika{
         .prvi{
             width: 100%;
@@ -697,64 +578,7 @@ form{
     }
 }
 @media (max-width: 620px){
-    //POP KONTAKT
-// #popkont{
-//     padding: 1%;
-//     width: 95%;
-//     margin: 0px auto;
-//     height: 430px;
-//     border: 2px solid #d1d1d1;
-//     bottom: 50%;
-//     top: 35%;
-//     right: 2%;
-//     position: fixed;
-//     border-radius: 10px;
-//     background-color: rgba(255, 255, 255, 0.945);
-//     //background-image: url("../img/popup1.png");
-//     #close{
-//         right: 5;
-//         top: 5;
-//         float: right;
-//     }
-//     a{
-//         text-decoration: none;
-//         color: #fff;
-//         font-size: 20px;
-//         float: right;
-//         border: 1px solid #c2c2c2;
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgba(255,195,26,1) 100%);
-//         border-radius: 5px;
-//         padding: 1%;
-//     }
-//     a:hover{
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,156,26,1) 0%, rgba(255,202,26,1) 100%);
-//     }
-//     .kako{
-//         text-align: center;
-//         margin-top: -4%;
-//         border-bottom: 1px solid #000;
-//         p{
-//             margin-left: 10%;
-//             font-size: 24px;
-//             color: #fff;
-//         }
-//     }
-//     .link1{
-//         text-align: center;
-//         margin-top: 1%;
-//         font-size: 18px;
-//         p{
-//             text-align: justify;
-//             color: #fff;
-//         }
-//         //background-color: #709e65;
-//     }
-//     .popimg{
-//         text-align: center;
-//         margin-top: 4%;
-//         font-size: 70px;
-//     }
-// }
+    
 }
 @media (max-width:550px){
     .infosve{
@@ -771,66 +595,6 @@ form{
     }
 }
 @media (max-width:450px){
-    //POP KONTAKT
-// #popkont{
-//     padding: 1%;
-//     //width: 710px;
-//     width: 90%;
-//     margin: 0px auto;
-//     height: 480px;
-//     border: 2px solid #d1d1d1;
-//     bottom: 50%;
-//     top: 32%;
-//     right: 4.5%;
-//     position: fixed;
-//     border-radius: 10px;
-//     background-color: rgba(255, 255, 255, 0.945);
-//     //background-image: url("../img/popup1.png");
-//     #close{
-//         right: 5;
-//         top: 5;
-//         float: right;
-//     }
-//     a{
-//         text-decoration: none;
-//         color: #fff;
-//         font-size: 17px;
-//         float: right;
-//         border: 1px solid #c2c2c2;
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgba(255,195,26,1) 100%);
-//         border-radius: 5px;
-//         padding: 1%;
-//     }
-//     a:hover{
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,156,26,1) 0%, rgba(255,202,26,1) 100%);
-//     }
-//     .kako{
-//         text-align: center;
-//         margin-top: -4%;
-//         border-bottom: 1px solid #000;
-//         p{
-//             margin-left: 10%;
-//             font-size: 14px;
-//             color: #fff;
-//         }
-//     }
-//     .link1{
-//         text-align: center;
-//         margin-top: 1%;
-//         font-size: 20px;
-//         p{
-//             padding: 0%;
-//             text-align: justify;
-//             color: #fff;
-//         }
-//         //background-color: #709e65;
-//     }
-//     .popimg{
-//         text-align: center;
-//         margin-top: 4%;
-//         font-size: 70px;
-//     }
-// }
     .bgslika{
         .header{
             ul li a{
@@ -854,67 +618,6 @@ form{
             }
         }
     }
-}
-@media (max-width: 380px){
-    //POP KONTAKT
-// #popkont{
-//     padding: 1%;
-//     width: 95%;
-//     margin: 0px auto;
-//     height: 355px;
-//     border: 2px solid #d1d1d1;
-//     bottom: 50%;
-//     top: 36%;
-//     right: 2.5%;
-//     position: fixed;
-//     border-radius: 10px;
-//     background-color: rgba(255, 255, 255, 0.979);
-//     //background-image: url("../img/popup1.png");
-//     #close{
-//         right: 5;
-//         top: 5;
-//         float: right;
-//     }
-//     a{
-//         text-decoration: none;
-//         color: #fff;
-//         font-size: 14px;
-//         float: right;
-//         border: 1px solid #c2c2c2;
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgba(255,195,26,1) 100%);
-//         border-radius: 5px;
-//         padding: 1%;
-//     }
-//     a:hover{
-//         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,156,26,1) 0%, rgba(255,202,26,1) 100%);
-//     }
-//     .kako{
-//         text-align: center;
-//         margin-top: -4%;
-//         border-bottom: 1px solid #000;
-//         p{
-//             margin-left: 15%;
-//             font-size: 13px;
-//             color: #fff;
-//         }
-//     }
-//     .link1{
-//         text-align: center;
-//         margin-top: 1%;
-//         font-size: 12px;
-//         p{
-//             padding: 0%;
-//             text-align: justify;
-//             color: #fff;
-//         }
-//         //background-color: #709e65;
-//     }
-//     .popimg{
-//         text-align: center;
-//         margin-top: 4%;
-//         font-size: 70px;
-//     }
-// }
 }
 
 // kontakt strana nova
@@ -1224,7 +927,7 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
   
   .tm-contact-link {
     display: inline-block;
-    color: #626364; //626364
+    color: #fc6203; //626364
     margin-bottom: 25px;
     text-decoration: none;
   }
@@ -1345,3 +1048,148 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
 .tm-welcome-section{
     margin-bottom: 4%;
 }
+
+
+
+
+/** footer **/
+.footer {
+  background: #000811;
+  padding-top: 90px;
+  margin-top: 90px;
+}
+.footer h2 {
+ color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.footer .address h3 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-bottom: 3px;
+  border-bottom: #f28b24 solid 4px;
+  margin-bottom: 20px;
+  width: 160px;
+}
+.location_section {
+  background-color: #fff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 20px 35px;
+}
+.news {
+ padding-bottom: 50px;
+  padding-top: 15px;
+}
+.news .newslatter {
+  padding: 14px 15px;
+  box-shadow: inherit;
+  width: 70%;
+  font-size: 19px;
+}
+.submit {
+ padding: 14px 45px;
+  border: #f28b24 solid 1px;
+  background: #f28b24;
+  color: #fff;
+  margin-left: -5px;
+  font-weight: 500;
+  font-size: 19px;
+  max-width: 271px;
+  width: 100%;
+}
+.submit:hover {
+  background: #d2cece;
+  border: #d2cece solid 1px;
+  color: #f28b24;
+}
+ul.social_link {
+ padding-bottom: 35px;
+  padding-top: 7px;
+  display: block;
+}
+ul.social_link li {
+ display: inline-block;
+  padding-right: 4px;
+}
+ul.social_link li a img {
+ width: 30px;
+  height: 30px;
+}
+ul.social_link li a img:hover {
+  background-color: #f28b24;
+  border-radius: 20px;
+}
+ul.Menu_footer li{
+ padding-bottom: 5px;
+  display: block;
+  color: #3e7f21;
+}
+ul.Menu_footer li a {
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 16px;
+  margin-top: -27px;
+}
+ul.Menu_footer li a:hover{
+  color: #f28b24;
+}
+ul.Links_footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+ul.Links_footer li a {
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 16px;
+  margin-top: -27px;
+}
+ul.Links_footer li a:hover{
+  color: #f28b24;
+}
+ul.Links_footer li {
+  padding-bottom: 5px;
+  color: #3e7f21;
+  display: block;
+}
+ul.loca li {
+  color: #fff;
+  padding-bottom: 10px;
+  display: flex;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+ul.loca li a {
+  padding-right: 16px;
+  color: #fff;
+  margin-top: 4px;
+}
+.copyright {
+  padding: 20px 0px;
+  margin-top: 55px;
+  background-color: #fff;
+}
+.copyright p {
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  border-top: #fff solid 1px;
+}
+.copyright a {
+  color: #000;
+}
+.copyright a:hover {
+  color: #f28b24;
+}
+/** end footer **/
